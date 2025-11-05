@@ -95,7 +95,7 @@ st.markdown("""
             font-size: 0.9rem;
             border-top: 1px solid #ccc;
             position: fixed;
-            bottom: 0;
+            bottom: 10px;
             left: 0;
             z-index: 999;
         }
