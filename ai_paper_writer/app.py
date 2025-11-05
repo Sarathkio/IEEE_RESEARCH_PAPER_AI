@@ -201,13 +201,15 @@ with st.container():
         )
 
 # ------------------ Footer ------------------ #
-# ------------------ Footer Styling ------------------ #
 st.markdown("""
     <style>
+        .footer-space {
+            height: 80px; /* Adds space above footer so it doesn’t overlap content */
+        }
         .footer {
             width: 100%;
             text-align: center;
-            padding: 12px 0;
+            padding: 15px 0;
             background-color: #f0f0f0;
             color: #444;
             font-size: 0.9rem;
@@ -228,8 +230,8 @@ st.markdown("""
         }
     </style>
 
+    <div class='footer-space'></div>
     <div class='footer'>
         🚀 Developed by <strong><a href="https://sarathkio.github.io/Sarath_Profile/" target="_blank">Sarathkumar R</a></strong>
     </div>
 """, unsafe_allow_html=True)
-
